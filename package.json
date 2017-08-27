@@ -1,0 +1,22 @@
+{
+  "name": "emulated-weather-sensor-www",
+  "version": "1.0.0",
+  "description": "Front end for emulated-weather-sensor-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustubhghadge/emulated-weather-sensor-www.git"
+  },
+  "author": "Kaustubh Ghadge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaustubhghadge/emulated-weather-sensor-www/issues"
+  },
+  "homepage": "https://github.com/kaustubhghadge/emulated-weather-sensor-www#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

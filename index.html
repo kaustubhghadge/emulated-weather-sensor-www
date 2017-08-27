@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Graph</title>
+    <!--<link href="style.css" rel="stylesheet">-->
+    <style type="text/css">
+		.chartWrapper{
+		   -webkit-column-count: 2; /* Chrome, Safari, Opera */
+		   -moz-column-count: 2; /* Firefox */
+		    column-count: 2;
+		  }
+		body { font: 12px Arial;}
+		h1{
+			text-align: center;
+		}
+
+		path { 
+		    stroke: steelblue;
+		    stroke-width: 2;
+		    fill: none;
+		}
+		.axis path,
+		.axis line {
+		    fill: none;
+		    stroke: grey;
+		    stroke-width: 1;
+		    shape-rendering: crispEdges;
+		}
+
+    </style>
+   <script src="https://d3js.org/d3.v4.min.js"></script>
+ </head>
+ <body>
+ 	<h1 id="header">Weather Graph</h1>
+ 	<div class="chartWrapper">
+ 	<div id="tempChart"></div>
+ 	<div id="humidChart"></div>
+ 	</div>
+   <script type="text/javascript" src="index.js"></script>
+ </body>
+</html>
