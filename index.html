@@ -11,7 +11,11 @@
 		    column-count: 2;
 		  }
 		body { font: 12px Arial;}
-		h1{
+		#header{
+			text-align: center;
+		}
+
+		.caption{
 			text-align: center;
 		}
 
@@ -34,8 +38,14 @@
  <body>
  	<h1 id="header">Weather Graph</h1>
  	<div class="chartWrapper">
- 	<div id="tempChart"></div>
- 	<div id="humidChart"></div>
+ 	<figure>
+ 		<div id="tempChart"></div>
+ 		<figcaption class="caption"><h3>Temperature Graph</h3></figcaption>
+ 	</figure>
+ 	<figure>
+ 		<div id="humidChart"></div>
+ 		<figcaption class="caption"> <h3>Humidity Graph</h3></figcaption>
+ 	</figure>
  	</div>
    <script type="text/javascript" src="index.js"></script>
  </body>
