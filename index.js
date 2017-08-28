@@ -104,7 +104,7 @@ d3.json("http://127.0.0.1:8080/weather",function(error,data){
      //plot lines
      svgHumidity.append('path')
             .datum(data)
-            .attr('class', 'line humidity')
+            .attr('class', 'line')
             .attr('d', humidityLine);
 
 });
@@ -160,6 +160,6 @@ function updateBothGraphs(){
 
      svgHumidity.select('.axis--y')
      				.duration(750)
-     				.call(d3.axisLeft(y));
+     				.call(d3.axisLeft(yHumidity));
 	});
 }
