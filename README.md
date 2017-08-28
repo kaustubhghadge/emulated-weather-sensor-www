@@ -11,6 +11,12 @@ Start the app in any server utility you prefer. For quick start <code>http-serve
 <h3>Notes</h3>
 The data is currently being auto-updated per 12 seconds. You can change it to match the API call timeframe i.e. 60 seconds in <code> index.js </code> until <code>env.js</code> file is added.
 
+
+<h3>Peek</h3>
+<img src="https://github.com/kaustubhghadge/emulated-weather-sensor-www/blob/master/Peek.gif"/>
+
+
+
 <h3>To Do </h3>
 <ul>
 <li>Add <code>env.js</code> file</li>
